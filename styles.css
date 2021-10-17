@@ -1,0 +1,57 @@
+:root {
+    /*text*/
+    --dark-blue: hsl(38, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+
+    /* neutral text*/
+    --darkest-grayish-blue: hsl(237, 12%, 33%);
+    --dark-grayish-blue: hsl(240, 6%, 50%);
+
+    /*Dividers*/
+    --light-grayish-blue: hsl(240, 5%, 91%);
+
+    /*gradients*/
+    --soft-violet: hsl(273, 75%, 66%);
+    --soft-blue: hsl(240, 73%, 65%);
+
+    /* Fonts */
+    --fs-12: 12px;
+    --w-400: 400;
+    --w-700: 700;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: "Kumbh Sans";
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: linear-gradient(var(--soft-violet), var(--soft-blue)) no-repeat;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+    max-width: 1440px;
+    background: white;
+    border-radius: 2em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {}
